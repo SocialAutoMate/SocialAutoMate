@@ -55,7 +55,7 @@ for i in range(howMany):
     pag.press('enter')
     time.sleep(0.5)
     postBeforeDrag = pag.position()
-    pag.moveTo(1562,969)
+    pag.moveTo(1562,postBeforeDrag[1]+690)
     pag.click()
     #pag.click()
     #dragLeft(500, time=0.5)
